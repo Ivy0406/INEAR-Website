@@ -6,11 +6,7 @@ body {
   box-sizing: border-box;
 }
 
-*, *::after, *::before {
-  outline: 0.5px dotted chocolate;
-}
-
-.btn-submit {
+.btn-submit-lg {
   display: flex;
   justify-content: center;
   border-radius: 4px;
@@ -23,11 +19,33 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
-.btn-submit:hover {
+.btn-submit-lg:hover {
   background-color: #000000;
   color: #FFFFFF;
 }
-.btn-submitactive {
+.btn-submit-lgactive {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-submit-sm {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: black;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-submit-sm:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.btn-submit-smactive {
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -80,4 +98,13 @@ input::-moz-placeholder {
 
 input::placeholder {
   color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  input::-moz-placeholder {
+    color: #ACACAC;
+  }
+  input::placeholder {
+    color: #ACACAC;
+  }
 }/*# sourceMappingURL=main.css.map */

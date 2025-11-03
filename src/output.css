@@ -203,11 +203,17 @@
   .-mt-24 {
     margin-top: calc(var(--spacing) * -24);
   }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
   .-mb-12 {
     margin-bottom: calc(var(--spacing) * -12);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
   }
   .flex {
     display: flex;
@@ -217,6 +223,9 @@
   }
   .table {
     display: table;
+  }
+  .aspect-square {
+    aspect-ratio: 1 / 1;
   }
   .h-6 {
     height: calc(var(--spacing) * 6);
@@ -239,6 +248,9 @@
   .h-\[141px\] {
     height: 141px;
   }
+  .h-\[168px\] {
+    height: 168px;
+  }
   .h-\[202px\] {
     height: 202px;
   }
@@ -259,6 +271,9 @@
   }
   .h-\[376px\] {
     height: 376px;
+  }
+  .h-\[400px\] {
+    height: 400px;
   }
   .h-\[514px\] {
     height: 514px;
@@ -302,17 +317,26 @@
   .w-\[153px\] {
     width: 153px;
   }
+  .w-\[168px\] {
+    width: 168px;
+  }
   .w-\[306px\] {
     width: 306px;
   }
   .w-\[351px\] {
     width: 351px;
   }
+  .w-\[352px\] {
+    width: 352px;
+  }
   .w-\[636px\] {
     width: 636px;
   }
   .w-\[856px\] {
     width: 856px;
+  }
+  .w-fit {
+    width: fit-content;
   }
   .w-full {
     width: 100%;
@@ -377,11 +401,17 @@
   .items-center {
     align-items: center;
   }
+  .justify-baseline {
+    justify-content: baseline;
+  }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .justify-start {
     justify-content: flex-start;
@@ -391,6 +421,9 @@
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
@@ -414,6 +447,9 @@
   .bg-\[\#000000\] {
     background-color: #000000;
   }
+  .bg-\[\#404040\] {
+    background-color: #404040;
+  }
   .bg-\[black\] {
     background-color: black;
   }
@@ -435,8 +471,14 @@
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
   }
   .py-15 {
     padding-block: calc(var(--spacing) * 15);

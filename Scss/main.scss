@@ -12,21 +12,25 @@ body{
     outline: 0.5px dotted chocolate;
 }
 
-.btn-default{
-    width: 88px;
-    height: 36px;
+.btn-submit{
+    display: flex;
+    justify-content: center;
     border-radius: 4px;
-    padding-top:6px;
-    padding-bottom: 6px;
+    padding-top:16px;
+    padding-bottom: 16px;
     padding-right: 12px;
     padding-left: 12px;
-    color: #FFFFFF; 
+    color: black; 
+    background-color: #FFFFFF;
     font-weight: 400;
+    cursor: pointer;
     &:hover{
         background-color: #000000;
+        color: #FFFFFF;
     }
     &active{
         background-color: #000000;
+        color: #FFFFFF;
     }
 }
 
@@ -65,3 +69,16 @@ body{
     
 }
 
+
+.key-in{
+    height: 56px;
+    appearance: none;
+    border:1px solid #FFFFFF;
+    border-radius: 4px;
+    padding-left: 12px;
+    
+}
+
+input::placeholder{
+        color:#FFFFFF;
+    }

@@ -10,22 +10,26 @@ body {
   outline: 0.5px dotted chocolate;
 }
 
-.btn-default {
-  width: 88px;
-  height: 36px;
+.btn-submit {
+  display: flex;
+  justify-content: center;
   border-radius: 4px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-right: 12px;
   padding-left: 12px;
-  color: #FFFFFF;
+  color: black;
+  background-color: #FFFFFF;
   font-weight: 400;
+  cursor: pointer;
 }
-.btn-default:hover {
+.btn-submit:hover {
   background-color: #000000;
+  color: #FFFFFF;
 }
-.btn-defaultactive {
+.btn-submitactive {
   background-color: #000000;
+  color: #FFFFFF;
 }
 
 .btn-navbar {
@@ -59,4 +63,21 @@ body {
     background-image: none;
     background-color: black;
   }
+}
+.key-in {
+  height: 56px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+input::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+input::placeholder {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

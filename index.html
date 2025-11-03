@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <header class="w-screen h-[88px] flex justify-center items-center px-3">
+    <header class="w-full h-[88px] flex justify-center items-center px-3">
       <div
         class="flex justify-between items-center w-full max-w-[1760px] min-w-[351px] h-14"
       >
@@ -47,45 +47,132 @@
       </div>
     </header>
 
-    <main class="bg-[black] w-screen items-center">
-      <section class="max-w-[1296px] mx-auto h-[610px] flex flex-col justify-center items-center relative md:flex-row md:justify-between">
-        <img class="w-full h-full max-h-[514px] object-cover md:hidden" src="./image/Hero-mobile.png" alt="行動版主視覺" />
-        <img class="hidden w-[856px] h-[514px] object-cover md:block" src="./image/Hero-web.jpg" alt="網頁版主視覺">
-        <div class="absolute z-2 bottom-12 text-white px-3 w-full min-w-[351px] md:max-w-[636px] md:right-[2%] md:bottom-[274.5px] md:h-[139px]">
-            <h1 class="text-[40px] font-medium mb-4">INEAR PRO MAX</h1>
-            <p>9/16 - 10/30 官網搶先販售</p>
-            <p>新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。</p>
+    <main class="bg-[black] w-full items-center">
+      <section
+        class="max-w-[1296px] mx-auto h-[610px] flex flex-col justify-center items-center relative md:flex-row md:justify-between"
+      >
+        <img
+          class="w-full h-full max-h-[514px] object-cover md:hidden"
+          src="./image/Hero-mobile.png"
+          alt="行動版主視覺"
+        />
+        <img
+          class="hidden w-full max-w-[856px] h-[514px] object-cover md:block"
+          src="./image/Hero-web.jpg"
+          alt="網頁版主視覺"
+        />
+        <div
+          class="absolute z-2 bottom-12 text-white px-3 w-full min-w-[351px] md:max-w-[636px] md:right-[2%] md:bottom-[274.5px] md:h-[139px]"
+        >
+          <h1 class="text-[40px] font-medium mb-4">INEAR PRO MAX</h1>
+          <p>9/16 - 10/30 官網搶先販售</p>
+          <p>
+            新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。
+          </p>
         </div>
-      </section >
+      </section>
 
-      <section class="w-screen flex flex-col justify-center items-center gap-12 md:bg-[#2B2B2B] md:py-15">
+      <section
+        class="new-arrival w-full flex flex-col justify-center items-center gap-12 py-15 md:bg-[#2B2B2B]"
+      >
         <h2 class="font-medium text-[32px] text-[#FFFFFF]">最新商品</h2>
-        <ul class="flex justify-center flex-col gap-12 text-[#ffffff] md:max-w-[1296px] md:flex-row md:gap-6">
-            <li class="flex flex-col gap-2">
-                <img class="w-[351px] h-[351px] object-cover object-center md:w-[416px] md:h-[458px]"src="./image/P-01.png" alt="INEAR PRO II">
-                <p class="p-2">INEAR PRO II</p>
-            </li>
-            <li class="flex flex-col gap-2">
-                <img class="w-[351px] h-[351px] object-cover md:w-[416px] md:h-[458px]" src="./image/p-2.jpg" alt="INEAR PRO MAX">
-                <p class="p-2">INEAR PRO MAX</p>
-            </li>
-            <li class="flex flex-col gap-2">
-                <img class="w-[351px] h-[351px] object-cover md:w-[416px] md:h-[458px]" src="./image/p-01.jpg" alt="INEAR PRO I">
-                <p class="p-2">INEAR PRO I</p>
-            </li>
+        <ul
+          class="flex justify-center flex-col gap-12 text-[#ffffff] md:max-w-[1296px] md:flex-row md:gap-6"
+        >
+          <li class="flex flex-col gap-2">
+            <img
+              class="w-[351px] h-[351px] object-cover object-center md:w-[416px] md:h-[458px]"
+              src="./image/P-01.png"
+              alt="INEAR PRO II"
+            />
+            <p class="p-2">INEAR PRO II</p>
+          </li>
+          <li class="flex flex-col gap-2">
+            <img
+              class="w-[351px] h-[351px] object-cover md:w-[416px] md:h-[458px]"
+              src="./image/p-2.jpg"
+              alt="INEAR PRO MAX"
+            />
+            <p class="p-2">INEAR PRO MAX</p>
+          </li>
+          <li class="flex flex-col gap-2">
+            <img
+              class="w-[351px] h-[351px] object-cover md:w-[416px] md:h-[458px]"
+              src="./image/p-01.jpg"
+              alt="INEAR PRO I"
+            />
+            <p class="p-2">INEAR PRO I</p>
+          </li>
         </ul>
-       </section>
+      </section>
 
-       <section>
-            <div class="flex fexl-col gap-2 text-[#fffff]">
-                <h2 class="text-[32px] font-medium">多色選擇，專屬你的與眾不同</h2>
-                <h3 class="font-normal">我的風格我主張，獨創品牌限定色，除了耀眼更要獨一無二</h3>
-            </div>
-       </section>
-
+      <section
+        class="flex flex-col justify-center items-center py-15"
+        style="background-image: url('./image/Frame 46.png')"
+      >
+        <div class="flex flex-col gap-12 text-[#FFFFFF]">
+          <div class="flex flex-col items-center px-3">
+            <h2 class="text-[32px] font-medium">多色選擇，專屬你的與眾不同</h2>
+            <h3 class="font-normal">
+              我的風格我主張，獨創品牌限定色，除了耀眼更要獨一無二
+            </h3>
+          </div>
+          <ul class="flex flex-col gap-6 justify-center items-center">
+            <li class="w-[351px] h-[202px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-01.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[250px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-02.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[250px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-04.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[202px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-05.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[219px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-03.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[219px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-06.jpg"
+                alt=""
+              />
+            </li>
+            <li class="w-[351px] h-[219px] overflow-hidden">
+              <img
+                class="w-full h-full object-cover object-center"
+                src="./image/style-07.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer
-      class="w-screen bg-[#000000] h-[346px] flex justify-start items-center px-3 md:justify-center"
+      class="w-full bg-[#000000] h-[346px] flex justify-start items-center px-3 md:justify-center"
     >
       <div
         class="flex flex-col gap-6 md:w-full md:max-w-[1296px] md:items-center"

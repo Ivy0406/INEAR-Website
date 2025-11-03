@@ -47,15 +47,17 @@
       </div>
     </header>
 
-    <main>
-      <section class="bg-[black] h-[610px] flex flex-col justify-center items-center relative">
-        <img class="w-full h-full max-h-[514px] object-cover" src="./image/Hero-mobile.png" alt="行動版主視覺" />
-        <div class="absolute z-2 bottom-12 text-white px-3">
+    <main class="bg-[black] w-screen items-center">
+      <section class="max-w-[1296px] mx-auto h-[610px] flex flex-col justify-center items-center relative md:flex-row md:justify-between">
+        <img class="w-full h-full max-h-[514px] object-cover md:hidden" src="./image/Hero-mobile.png" alt="行動版主視覺" />
+        <img class="hidden w-[856px] h-[514px] object-cover md:block" src="./image/Hero-web.jpg" alt="網頁版主視覺">
+        <div class="absolute z-2 bottom-12 text-white px-3 max-w-[636px] m md:right-[2%] md:bottom-[274.5px] md:h-[139px]">
             <h1 class="text-[40px] font-medium mb-4">INEAR PRO MAX</h1>
             <p>9/16 - 10/30 官網搶先販售</p>
             <p>新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。</p>
         </div>
       </section>
+      
     </main>
     <footer
       class="w-screen bg-[#000000] h-[346px] flex justify-start items-center px-3 md:justify-center"

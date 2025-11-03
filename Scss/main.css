@@ -7,7 +7,7 @@ body {
 }
 
 *, *::after, *::before {
-  outline: 1px solid chocolate;
+  outline: 0.5px dotted chocolate;
 }
 
 .btn-default {

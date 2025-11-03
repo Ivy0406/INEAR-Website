@@ -175,14 +175,26 @@
   .top-\[196px\] {
     top: 196px;
   }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
+  .right-\[300px\] {
+    right: 300px;
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
   .bottom-12 {
     bottom: calc(var(--spacing) * 12);
   }
+  .left-\[972px\] {
+    left: 972px;
+  }
   .z-2 {
     z-index: 2;
+  }
+  .mx-auto {
+    margin-inline: auto;
   }
   .-mt-12 {
     margin-top: calc(var(--spacing) * -12);
@@ -259,11 +271,17 @@
   .w-\[153px\] {
     width: 153px;
   }
+  .w-\[856px\] {
+    width: 856px;
+  }
   .w-full {
     width: 100%;
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[636px\] {
+    max-width: 636px;
   }
   .max-w-\[1296px\] {
     max-width: 1296px;
@@ -361,6 +379,56 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .md\:fixed {
+    @media (width >= 48rem) {
+      position: fixed;
+    }
+  }
+  .md\:top-\[274\.5px\] {
+    @media (width >= 48rem) {
+      top: 274.5px;
+    }
+  }
+  .md\:right-0 {
+    @media (width >= 48rem) {
+      right: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:right-\[2\%\] {
+    @media (width >= 48rem) {
+      right: 2%;
+    }
+  }
+  .md\:right-\[10\%\] {
+    @media (width >= 48rem) {
+      right: 10%;
+    }
+  }
+  .md\:right-\[23\%\] {
+    @media (width >= 48rem) {
+      right: 23%;
+    }
+  }
+  .md\:right-\[300px\] {
+    @media (width >= 48rem) {
+      right: 300px;
+    }
+  }
+  .md\:bottom-\[50\%\] {
+    @media (width >= 48rem) {
+      bottom: 50%;
+    }
+  }
+  .md\:bottom-\[274\.5px\] {
+    @media (width >= 48rem) {
+      bottom: 274.5px;
+    }
+  }
+  .md\:left-0 {
+    @media (width >= 48rem) {
+      left: calc(var(--spacing) * 0);
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -374,6 +442,11 @@
   .md\:hidden {
     @media (width >= 48rem) {
       display: none;
+    }
+  }
+  .md\:h-\[139px\] {
+    @media (width >= 48rem) {
+      height: 139px;
     }
   }
   .md\:w-full {
@@ -396,6 +469,11 @@
       align-items: center;
     }
   }
+  .md\:justify-baseline {
+    @media (width >= 48rem) {
+      justify-content: baseline;
+    }
+  }
   .md\:justify-between {
     @media (width >= 48rem) {
       justify-content: space-between;
@@ -406,9 +484,19 @@
       justify-content: center;
     }
   }
+  .md\:justify-start {
+    @media (width >= 48rem) {
+      justify-content: flex-start;
+    }
+  }
   .md\:gap-\[596px\] {
     @media (width >= 48rem) {
       gap: 596px;
+    }
+  }
+  .md\:px-3 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 3);
     }
   }
 }

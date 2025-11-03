@@ -48,4 +48,15 @@ body {
   background-color: #FFFFFF;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.style {
+  background-image: url("../image/Frame 46.png");
+}
+
+@media (max-width: 768) {
+  .style {
+    background-image: none;
+    background-color: black;
+  }
 }/*# sourceMappingURL=main.css.map */

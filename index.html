@@ -6,6 +6,10 @@
     <title>INEAR首頁</title>
     <link rel="stylesheet" href="./Scss/main.css" />
     <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto Sans Traditional Chinese"
+    />
   </head>
   <body>
     <header class="w-screen h-[88px] flex justify-center items-center px-3">
@@ -18,6 +22,12 @@
             src="./image/INEAR Logo.svg"
             alt="INEAR Logo"
         /></a>
+        <nav class="hidden justify-between items-center md:flex">
+          <a class="btn-navbar" href="index.html">首頁</a>
+          <a class="btn-navbar" href="#">最新消息</a>
+          <a class="btn-navbar" href="#">商品列表</a>
+          <a class="btn-navbar" href="#">關於我們</a>
+        </nav>
         <nav class="flex h-full gap-3">
           <button
             class="flex h-full w-14 items-center justify-center cursor-pointer"
@@ -25,7 +35,7 @@
             <img class="w-6 h-6" src="./image/Vector.svg" alt="搜尋" />
           </button>
           <button
-            class="flex h-full w-14 items-center justify-center cursor-pointer"
+            class="flex h-full w-14 items-center justify-center cursor-pointer md:hidden"
           >
             <img
               class="w-6 h-6"

@@ -1,7 +1,45 @@
+@import 'variables';
+
+body{
+    font-family: $font-style-primary;
+};
+
 *,*::before,*::after{
     box-sizing: border-box;
 }
 
 *,*::after,*::before{
     outline: 1px solid chocolate;
+}
+
+.btn-default{
+    width: 88px;
+    height: 36px;
+    border-radius: 4px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: #FFFFFF; 
+    font-weight: 400;
+    &:hover{
+        background-color: #000000;
+    }
+    &active{
+        background-color: #000000;
+    }
+}
+
+.btn-navbar{
+    height: 40px;
+    padding: 8px;
+    font-weight: 400;
+    &:hover{
+        border-bottom: 1px solid #000000;
+        transition:1ms;
+    }
+    &:active{
+        border-bottom: 1px solid #000000;
+        transition:1ms;
+    }
 }

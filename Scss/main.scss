@@ -74,16 +74,25 @@ body{
     margin-bottom: 24px;
 }
 
-
-.style{
-    background-image: url('../image/Frame\ 46.png');
+.new-arrival{
+    background-color: #2B2B2B;
+}
+@media (max-width:768px) {
+    .new-arrival{
+        background: linear-gradient(#000000,#404040,#191919);
+    };
+    
 }
 
-@media(max-width:768){
+
+.style{
+    background-color: #000000;
+}
+
+@media(max-width:768px){
     .style{
-        background-image: none;
-        background-color: black;
-    }
+        background-image: url('../image/Frame\ 46.png');
+    };
     
 }
 

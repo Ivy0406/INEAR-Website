@@ -40,4 +40,12 @@ body {
 .btn-navbar:active {
   border-bottom: 1px solid #000000;
   transition: 1ms;
+}
+
+.break-line {
+  width: 100px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }/*# sourceMappingURL=main.css.map */

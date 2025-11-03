@@ -6,7 +6,10 @@
     <title>INEAR首頁</title>
     <link rel="stylesheet" href="./Scss/main.css" />
     <link rel="stylesheet" href="./src/output.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="w-screen h-[88px] flex justify-center items-center px-3">
@@ -44,9 +47,13 @@
       </div>
     </header>
 
-    <footer class="w-screen bg-[#000000] h-[346px] flex items-center px-3">
-      <div class="flex flex-col gap-6">
-        <section class=" flex flex-col gap-6">
+    <footer
+      class="w-screen bg-[#000000] h-[346px] flex justify-start items-center px-3 md:justify-center"
+    >
+      <div
+        class="flex flex-col gap-6 md:w-full md:max-w-[1296px] md:items-center"
+      >
+        <section class="flex flex-col gap-6">
           <img class="w-40 h-[66px]" src="./image/INEAR Logo-white.svg" />
           <div class="flex w-[152px] justify-between">
             <a href="#"
@@ -63,15 +70,18 @@
             /></a>
           </div>
         </section>
-        <section class="text-[#FFFFFF] font-normal flex flex-col gap-10">
-            <div>
-            <a>最新商品</a>
-            <a>多色選擇</a>
-            <a>訂製耳機</a>
-            </div>
-            <div>
-                <p>© WEBNAME 2024 All right Reserved</p>
-            </div>
+        <div class="hidden break-line md:block"></div>
+        <section
+          class="text-[#FFFFFF] font-normal flex flex-col gap-10 md:flex-row md:justify-between md:w-full"
+        >
+          <div class="flex gap-6">
+            <a href="#">最新商品</a>
+            <a href="#">多色選擇</a>
+            <a href="#">訂製耳機</a>
+          </div>
+          <div>
+            <p>© WEBNAME 2024 All right Reserved</p>
+          </div>
         </section>
       </div>
     </footer>

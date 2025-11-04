@@ -49,23 +49,23 @@
 
     <main class="bg-[black] w-full items-center">
       <section
-        class="max-w-[1296px] mx-auto h-[610px] flex flex-col justify-center items-center relative md:flex-row md:justify-between"
+        class="max-w-[1296px] mx-auto h-[610px] py-12 flex flex-col justify-center items-center md:flex-row md:justify-between md:px-3 md:py-0"
       >
         <img
-          class="w-full h-full max-h-[514px] object-cover md:hidden"
+          class="w-full h-full object-cover md:hidden"
           src="./images/Hero-mobile.png"
           alt="行動版主視覺"
         />
         <img
-          class="hidden w-full max-w-[856px] h-[514px] object-cover md:block"
-          src="./images/Hero-web.jpg"
+          class="hidden w-full h-full object-cover md:block"
+          src="./images/Hero-web-full.jpg"
           alt="網頁版主視覺"
         />
         <div
-          class="absolute z-2 bottom-12 text-white px-3 w-full min-w-[351px] md:max-w-[636px] md:right-[2%] md:bottom-[274.5px] md:h-[139px]"
+          class="-mt-[175px] text-white px-3.5 w-full min-w-[351px] md:max-w-[636px] md:-ml-[50%] md:-mt-[1%] md:px-1"
         >
           <h1 class="text-[40px] font-medium mb-4">INEAR PRO MAX</h1>
-          <p>9/16 - 10/30 官網搶先販售</p>
+          <p class="mb-[3px]">9/16 - 10/30 官網搶先販售</p>
           <p>
             新色上市，搭載最新降噪技術，提供給您最高音質享受，採用適應性演算法，快速處理音效，讓您享受更高傳真的效果。
           </p>
@@ -196,7 +196,9 @@
                 />
               </figure>
             </section>
-            <section class="flex-5/12 max-w-[416px] flex flex-col justify-between gap-6">
+            <section
+              class="flex-5/12 max-w-[416px] flex flex-col justify-between gap-6"
+            >
               <img
                 class="flex-1 max-h-[219px] object-cover object-center"
                 src="./images/style-03.jpg"
@@ -214,10 +216,10 @@
         </div>
       </section>
 
-      <section
-        class="bg-[#404040]"
-      >
-        <div class="flex flex-col items-center px-3 py-15 md:flex-row-reverse md:justify-center md:gap-6 md:max-w-[1296px] md:mx-auto">
+      <section class="bg-[#404040]">
+        <div
+          class="flex flex-col items-center px-3 py-15 md:flex-row-reverse md:justify-center md:gap-6 md:max-w-[1296px] md:mx-auto"
+        >
           <section class="flex flex-col items-center md:flex-1">
             <h2 class="text-[32px] text-white font-medium">
               訂製專屬於您的完美耳機
@@ -247,7 +249,9 @@
               <button class="btn-submit-lg"><span>送出表單</span></button>
             </form>
             <!-- 網頁版 -->
-            <form class="hidden w-full text-white flex-col items-end gap-6 md:flex">
+            <form
+              class="hidden w-full text-white flex-col items-end gap-6 md:flex"
+            >
               <div class="w-full">
                 <label>姓氏</label
                 ><input
@@ -333,7 +337,10 @@
           <img class="w-40 h-[66px]" src="./images/INEAR Logo-white.svg" />
           <div class="flex w-[152px] justify-between">
             <a href="#"
-              ><img class="w-6 h-6" src="./images/Twitter.svg" alt="官方Twitter"
+              ><img
+                class="w-6 h-6"
+                src="./images/Twitter.svg"
+                alt="官方Twitter"
             /></a>
             <a href="#"
               ><img

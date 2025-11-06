@@ -193,6 +193,9 @@
   .table {
     display: table;
   }
+  .aspect-\[0\.9\/1\] {
+    aspect-ratio: 0.9/1;
+  }
   .aspect-\[1\.9\/1\] {
     aspect-ratio: 1.9/1;
   }

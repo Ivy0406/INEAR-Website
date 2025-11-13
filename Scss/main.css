@@ -78,7 +78,7 @@ body {
 
 @media (max-width: 768px) {
   .new-arrival {
-    background: linear-gradient(#000000, #404040, #191919);
+    background: linear-gradient(to bottom right, #000000, #191919, #404040);
   }
 }
 .style {
